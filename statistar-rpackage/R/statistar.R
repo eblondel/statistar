@@ -3,6 +3,8 @@
 #' @aliases statistar
 #' @docType package
 #' 
+#' @import jsonlite
+#' 
 #' @title  R helpers for running data management workflows and enable R web computing
 #' @description  R helpers for running data management workflows and enable R web computing
 #'

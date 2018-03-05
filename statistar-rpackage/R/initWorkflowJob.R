@@ -8,6 +8,7 @@
 #' @param config a configuration object as read by \code{initWorkflow}
 #' 
 #' @author Emmanuel Blondel, \email{emmanuel.blondel1@@gmail.com}
+#' @export
 #'   
 initWorkflowJob <- function(config){
   config$logger.info("Init Workflow job directory")

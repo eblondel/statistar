@@ -8,6 +8,7 @@
 #' @param config a configuration object as read by \code{initWorkflow}
 #' 
 #' @author Emmanuel Blondel, \email{emmanuel.blondel1@@gmail.com}
+#' @export
 #'    
 executeWorkflowJob <- function(config){
   capture.output({

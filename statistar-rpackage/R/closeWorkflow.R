@@ -8,6 +8,7 @@
 #' @param config a configuration object as read by \code{closeWorkflow}
 #' 
 #' @author Emmanuel Blondel, \email{emmanuel.blondel1@@gmail.com}
+#' @export
 #' 
 closeWorkflow <- function(config){
   #close DB

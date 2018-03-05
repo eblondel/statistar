@@ -8,6 +8,7 @@
 #' @param file a JSON configuration file
 #' 
 #' @author Emmanuel Blondel, \email{emmanuel.blondel1@@gmail.com}
+#' @export
 #'
 initWorkflow <- function(file){
   
