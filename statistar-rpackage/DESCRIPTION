@@ -1,0 +1,15 @@
+Package: statistar
+Version: 0.1
+Date: 2018-02-17
+Title: R helpers for running data management workflows and enable R web computing
+Authors@R: c(person("Emmanuel", "Blondel", role = c("aut", "cre"), email = "emmanuel.blondel1@gmail.com", comment = c(ORCID = "0000-0002-5870-5762")))
+Maintainer: Emmanuel Blondel <emmanuel.blondel1@gmail.com>
+Depends: R (>= 3.3)
+Imports: jsonlite, RPostgreSQL
+Suggests: testthat
+Description:  R helpers for running data management workflows and enable R web computing
+License: MIT + file LICENSE
+URL: https://github.com/eblondel/statistar
+BugReports: https://github.com/eblondel/statistar
+LazyLoad: yes
+RoxygenNote: 6.0.1
