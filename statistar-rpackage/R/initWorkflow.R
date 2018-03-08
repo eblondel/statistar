@@ -101,7 +101,10 @@ initWorkflow <- function(file){
   db <- config$db
   if(!is.null(db)){
 	config$logger.info(sprintf("Connect to database '%s'...", db$name))
-	config$db[["con"]] <- con <- dbConnect(db$drv, dbname=db$name, user=db$user, password=db$pwd, host=db$host)
+	config$db[["con"]] <- dbConnect(db$drv, dbname=db$name, user=db$user, password=db$pwd, host=db$host)
+	  
+	#specific to PG for now
+	config$db[["dbpath"]] <- paste("PG:", paste(lapply(names(db), function(x){return(paste(x,db[[x]],sep="="))}), collapse=" "), sep="")
   }
   
   #SDI
